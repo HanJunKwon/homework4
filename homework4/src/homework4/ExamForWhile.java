@@ -5,8 +5,10 @@ public class ExamForWhile {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		while (true) {
-			System.out.println("1.1부터 입력한 수까지 더하기");
+			System.out.println("*******************");
+			System.out.println("반복문 연습하기");
+			System.out.println("*******************");
+			System.out.println("1. 1부터 입력한 수까지 더하기");
 			System.out.println("2. 최대값/최소값구하기");
 			System.out.println("3. 입력받은 숫자의 합곙화 평균구하기");
 			System.out.println("4. 원하는 구구단 출력하기");
@@ -32,8 +34,6 @@ public class ExamForWhile {
 				GuGuDan2 gugu2 = new GuGuDan2();
 				gugu2.guguCalc();
 			} else if (select == 6)
-				break;
-		}
-		return;
+				return;
 	}
 }
