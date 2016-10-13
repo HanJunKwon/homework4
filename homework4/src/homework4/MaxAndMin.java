@@ -19,7 +19,7 @@ public class MaxAndMin {
 			
 			if(i.equals("Q"))
 				break;
-			else if(Integer.parseInt(i)>=0 && Integer.parseInt(i)<=100){
+			else if(Integer.parseInt(i)>=1 && Integer.parseInt(i)<=100){
 				if(Integer.parseInt(i)>max)
 					max=Integer.parseInt(i);
 				else if(Integer.parseInt(i)<min)
