@@ -8,10 +8,8 @@ public class SumOfNumbers {
 	
 	void Sum(){
 		Scanner sc = new Scanner(System.in);
-		System.out.println("###1ºÎÅÍ ÀÔ·ÂÇÑ ¼ö±îÁö ´õÇÏ±â");
-		
 		while (true) {
-			System.out.print("¸¶Áö¸· ¼ö¸¦ ÀÔ·Â(Q:Á¾·á) >>");
+			System.out.print("ìˆ«ìžë¥¼ ìž…ë ¥í•˜ì„¸ìš”.(Q:ì¢…ë£Œ) >>");
 			num = sc.nextLine();
 			
 			if(num.equals("Q"))
@@ -19,7 +17,7 @@ public class SumOfNumbers {
 			else {
 				for (int i = 1; i <= Integer.parseInt(num); ++i)
 					sum += i;
-				System.out.printf("ÃÑ ÇÕÀº %dÀÔ´Ï´Ù.\n", sum);
+				System.out.printf("ì´í•©ì€ %dìž…ë‹ˆë‹¤.\n", sum);
 			}
 			sum=0;
 		}
