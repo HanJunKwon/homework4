@@ -1,20 +1,15 @@
 package homework4;
 import java.util.Scanner;
 public class MaxAndMin {
-	int max;
-	int min;
-	MaxAndMin(){
-		max=0;
-		min=100;
-	}
+	int max=0;
+	int min=101;
+	MaxAndMin(){}
 	void MaxMin(){
-		System.out.println("###ÃÖ´ë°ª/ÃÖ¼Ò°ª±¸ÇÏ±â");
-	
 		String i;
 		Scanner sc = new Scanner(System.in);
 		
 		while(true){
-			System.out.print("¼ıÀÚ¸¦ ÀÔ·Â(Q:Á¾·á) >> ");
+			System.out.print("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”.(Q:ì¢…ë£Œ) >> ");
 			i = sc.nextLine();
 			
 			if(i.equals("Q"))
@@ -27,7 +22,7 @@ public class MaxAndMin {
 			}
 			else continue;
 		}
-		System.out.printf("°¡Àå Å« ¼ö´Â %dÀÌ°í, ÀÛÀº¼ö´Â %dÀÔ´Ï´Ù.\n",max, min);
+		System.out.printf("ìµœëŒ“ê°’ì€ %dì´ê³ , ìµœì†Ÿê°’ì€ %dì…ë‹ˆë‹¤.\n",max, min);
 		return;
 	}
 }
