@@ -16,23 +16,20 @@ public class ExamForWhile {
 			System.out.print("원하는 메뉴는>>");
 			int select = sc.nextInt();
 
-			if (select == 1) {
-				SumOfNumbers sumNum = new SumOfNumbers();
-				sumNum.Sum();
-			} else if (select == 2) {
-				MaxAndMin maxmin = new MaxAndMin();
-				maxmin.MaxMin();
-			} else if (select == 3) {
+			if (select == 1) 
+				new SumOfNumbers().Sum();
+			 else if (select == 2) 
+				new MaxAndMin().MaxMin();
+			 else if (select == 3) {
 				SumAndAvg sumAvg = new SumAndAvg();
 				sumAvg.Sum();
 				sumAvg.Avg();
-			} else if (select == 4) {
-				GuGuDan gugu = new GuGuDan();
-				gugu.guguCalc();
-			} else if (select == 5) {
-				GuGuDan2 gugu2 = new GuGuDan2();
-				gugu2.guguCalc();
-			} else if (select == 6)
+			 }
+			 else if (select == 4) 
+				new GuGuDan().guguCalc();
+			 else if (select == 5) 
+				new GuGuDan2().guguCalc();
+			 else if (select == 6)
 				System.exit(0);
 		}
 	}
