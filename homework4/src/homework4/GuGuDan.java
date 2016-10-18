@@ -6,25 +6,21 @@ public class GuGuDan {
 	GuGuDan(){}
 	
 	void guguCalc(){
-		System.out.println("###¿øÇÏ´Â ±¸±¸´Ü Ãâ·ÂÇÏ±â");
 		Scanner sc = new Scanner(System.in);
 		while(true){
-			System.out.print("Ãâ·ÂÇÏ°í ½ÍÀº ´Ü(Q:Á¾·á) >> ");
+			System.out.print("ìˆ«ìžë¥¼ ìž…ë ¥í•˜ì„¸ìš”.(Q:ì¢…ë£Œ) >> ");
 			dan = sc.nextLine();
 			
 			if(dan.equals("Q"))
 				break;
 			else if(Integer.parseInt(dan)>1 && Integer.parseInt(dan)<10){
 				for(int i=1; i<10; ++i){
-					if(i%2==0)
-						System.out.printf("%d * %d = %d\n",Integer.parseInt(dan),i,Integer.parseInt(dan)*i);
-					else
-						System.out.printf("%d * %d = %d     ",Integer.parseInt(dan),i,Integer.parseInt(dan)*i);
+					int r= Integer.parseInt(dan)*i;
+					System.out.println(dan+"*"+i+"="+r);
 				}
-				System.out.println();
 			}
 			else
-				System.out.println("===>Àß ¸ø ÀÔ·Â");		
+				System.out.println("===>ìž˜ëª» ìž…ë ¥");		
 			
 		}
 	}
