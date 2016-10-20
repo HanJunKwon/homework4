@@ -6,7 +6,6 @@ public class SumAndAvg {
 	int cnt=0;
 	String num;
 	SumAndAvg(){}
-	
 	void Sum(){
 		while(true){
 			Scanner sc = new Scanner(System.in);
