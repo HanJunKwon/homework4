@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class SumOfNumbers {
 	int sum;
 	String num;
-	
 	SumOfNumbers(){}
 	
 	void Sum(){
