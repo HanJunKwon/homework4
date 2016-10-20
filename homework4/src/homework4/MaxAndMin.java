@@ -7,7 +7,6 @@ public class MaxAndMin {
 	void MaxMin(){
 		String i;
 		Scanner sc = new Scanner(System.in);
-		
 		while(true){
 			System.out.print("숫자를 입력하세요.(Q:종료) >> ");
 			i = sc.nextLine();
