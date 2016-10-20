@@ -7,6 +7,7 @@ public class ExamForWhile {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		while (true) {
+
 			System.out.println("1. 1부터 입력한 수까지 더하기");
 			System.out.println("2. 최댓값/최솟값 구하기");
 			System.out.println("3. 입력받은  숫자의 합계와 평균구하기");
