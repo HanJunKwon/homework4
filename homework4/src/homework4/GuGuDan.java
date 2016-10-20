@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class GuGuDan {
 	String dan;
 	GuGuDan(){}
-	
 	void guguCalc(){
 		Scanner sc = new Scanner(System.in);
 		while(true){
