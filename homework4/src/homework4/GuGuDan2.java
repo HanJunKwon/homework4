@@ -6,7 +6,6 @@ public class GuGuDan2 {
 	void guguCalc(){
 		String s;
 		Scanner sc = new Scanner(System.in);
-		
 		while(true){
 			System.out.print("E:짝수단, O:홀수단(Q:종료) >> ");
 			s = sc.nextLine();
